@@ -10,9 +10,10 @@ Audit for the Colorado Board of Elections of congressional district to analyze f
 4. Calculate percentage of votes per candidate
 5. Determine winner based on popular vote
  
-## Resources
+#### Resources
   -- Software: Python 2.7.16, Visual Studio Code, 1.38.1
   -- Data Source: election_results.csv
+
 
 ## Election-Audit Results
 The analysis of the election shows that: 
@@ -28,6 +29,7 @@ The analysis of the election shows that:
 * The winner of the election was:
  **Diana DeGette** who received 73.8% of the votes and 272,892 number of votes.
   
+  <img width="405" alt="Election Results" src="https://user-images.githubusercontent.com/78561980/112073604-76abb900-8b42-11eb-9ca9-fbc36000993c.png">
   
-  ## Election-Audit Summary
+ ## Election-Audit Summary
   In conducting the analysis of the election we were able to quickly reach final voter counts for each candidate, and after receiving the request from the Board, add to our original code to give us the voter turnout for each county in the district. By using Python, versus Excel for example, our code is formatted to include descriptive "pseudocode" for each line so it can be easily interpreted by future coders. Our code includes variables, versus naming the specific candidates or counties in this analysis, which makes the code perfect for analyzing future elections or use by other districts. In addition, larger datasets which include voter demographics or more broad geographical regions will only require small modifications. For additional output summarizing data such as voter age, gender, race/ethnicity, etc. adding indexing with for loop variables is a simple addition to the existing code. Relevant information such as vote turnout by political party would be easily summarized using this code, by adding if-statements, as well. 
